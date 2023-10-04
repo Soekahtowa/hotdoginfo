@@ -1,42 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            Hot Dog Info! - Home
-        </title>
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <header>
-            <h1>
-                Welcome to Hot Dog Info!
-            </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="secondpage.html">Types of Hot Dogs</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Hot Dog Info!
+    </title>
+    <link rel="stylesheet" href="main.css" id="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img id="logo" src="logo.png" alt="Hot Dog Info Logo"></a>
+        <button id="style-switcher">Switch Style</button>
+        <script src="styleswitcher.js"></script>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li class="navitem" id="current"><a href="index.html">Home</a></li>
+            <li class="navitem"><a href="stats.html">Advanced Glizztistics</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div class="primary">
+            <h2>
+                Popular Hot Dog Varieties
+            </h2>
+            <h3>
+                <a href="https://en.wikipedia.org/wiki/Hot_dog" target="_blank">American Hot Dogs</a>
+            </h3>
+            <p>
+                The classic American Hot Dog, usually served with mustard, ketchup, onions, and relish. The Dog itself
+                is usually made of emulsified meat trimmings of chicken, beef, or pork.
+            </p>
+            <img src="https___cdn.cnn.com_cnnnext_dam_assets_210826215046-hotdog-stock.jpg" alt="hot dog" width="350"
+                height="200">
+                <figcaption>Shutterstock</figcaption>
+            <h3>
+                <a href="https://en.wikipedia.org/wiki/Sonoran_hot_dog" target="_blank">Mexican Sonoran Dog</a>
+            </h3>
+            <p>
+                This delicious Mexican Hot Dog is typically wrapped in bacon and topped with pinto beans, onions,
+                tomatoes, and sometimes mayonaise, mustard, and jalapeño salsa. It is made of the same ingredients as
+                the american hot dog.
+            </p>
+            <img src="Sonoran_dog_GC_0052.jpg" alt="sonoran dog" width="250" height="300">
+            <figcaption>Wikipedia</figcaption>
+            <h3>
+                <a href="https://en.wikipedia.org/wiki/Japadog" target="_blank">Japanese Japadog</a>
+            </h3>
+            <p>
+                This small experience of Japan often features teriyaki sauce and seaweed upon a typical hot dog.
+            </p>
+            <img src="Japadog_-_Terimayo_(2696843021)_(2).jpg" alt="japadog" width="250" height="200">
+            <figcaption>Wikipedia</figcaption>
+            <h3>
+                <a href="https://en.wikipedia.org/wiki/Chicago-style_hot_dog" target="_blank">Chicago Dog</a>
+            </h3>
+            <p>
+                This style dog is an all beef frankfurter on a poppy seed bun topped with yellow mustard, chopped white
+                onions, bright green sweet pickle relish, a dill pickle spear, tomato slices, pickled sport peppers, and
+                a dash of celery salt.
+            </p>
+            <img src="Chicago-style_hot_dog_2.jpg" alt="chicago dog" width="250" height="200">
+            <figcaption>Wikipedia</figcaption>
+            <h3>
+                <a href="https://en.wikipedia.org/wiki/Coney_Island_hot_dog" target="_blank">Coney Island Hot Dog</a>
+            </h3>
+            <p>
+                This is a staple in the Hot Dog community. This typical hot dog is topped with a savory meat sauce,
+                yellow mustard, white onions, and sometimes cheese.
+            </p>
+            <img src="220px-Detroit_Coney.jpg" alt="coney dog" width="250" height="200">
+            <figcaption>Wikipedia</figcaption>
+        </div>
+
+        <div class="secondary">
             <h2>
                 About Us
             </h2>
             <p>
-                Welcome to Hot Dog Info, here you will find all the information you need to know when it comes to different types of Hot Dogs!
+                Discover a world of hot dog delights at Hot Dog Info! We are your ultimate destination for everything hot dog-related. 
+                Whether you're a fan of the classic American hot dog or you're eager to explore exotic variations from around the globe, our website has you covered.
+            </p>
+            <p>
+                At Hot Dog Info, we're passionate about hot dogs, and we've curated an extensive collection of hot dog varieties for your enjoyment. 
+                From the iconic American hot dog, served with mustard, ketchup, onions, and relish, to international favorites like the Japanese Japadog 
+                and the Mexican Sonoran Dog, our website offers a mouthwatering journey through hot dog culture.
+            </p>
+            <p>
+                Looking to recreate the magic at home? We've got you covered with our collection of delicious hot dog recipes. 
+                From gourmet toppings to unique flavor combinations, our recipes will inspire your culinary creativity. Impress your friends and family with your hot dog-making skills!
+            </p>
+            <p>
+                We believe that hot dogs are meant to be celebrated with friends. 
+                Join our hot dog community to share your hot dog experiences, recipes, and recommendations. 
+                Connect with fellow hot dog enthusiasts from around the world and be a part of the global hot dog conversation.
+            </p>
+            <p>
+                Don't miss out on the latest hot dog trends, recipes, and events. Subscribe to our newsletter and follow us on social media to stay updated with all things hot dog-related.
             </p>
             <p>
                 If youre excited to learn, then start exploring our website and gain all the knowledge you can!
             </p>
-        </main>
-        <footer>
-            <p>&copy; 2023 Hot Dog Info</p>
-        </footer>
-    </body>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hot Dog Info</p>
+    </footer>
+</body>
+
 </html>
